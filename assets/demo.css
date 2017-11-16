@@ -1,0 +1,24 @@
+#header, #footer {
+    height: 200px;
+    background: #3498db;
+    margin-bottom: 30px;
+}
+#footer {
+    margin-top: 30px;
+    height: 600px;
+}
+#content {
+    height: 1000px;
+    background: #34495e;
+}
+#sidebar {
+    height: 200px;
+    overflow-y: scroll;
+    background: #1abc9c;
+    /*transition: all, 0.1s ease-in-out;*/
+}
+
+#sidebar .content {
+    background: #3498db;
+    height: 990px;
+}

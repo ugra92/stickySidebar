@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/demo.css">
+    </head>
+    <body>
+        <header id="header" class="col-md-12">
+
+        </header>
+        <div id="sidebar" class="col-md-3">
+            <div class="content col-md-12"></div>
+        </div>
+        <div id="content" class="col-md-9"></div>
+        <footer id="footer" class="col-md-12">
+
+        </footer>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/sticky-sidebar.js"></script>
+    <script>
+        var params = {
+            element : '#sidebar',
+            footer: '#footer',
+            contentElement: '#content',
+            spaceTop: 30,
+            headerElement: '#header',
+            smooth: 0.3
+        };
+        var sticky = new StickySidebar(params);
+
+    </script>
+</html>
